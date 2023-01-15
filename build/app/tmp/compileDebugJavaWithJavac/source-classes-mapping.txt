@@ -1,0 +1,4 @@
+io/flutter/plugins/GeneratedPluginRegistrant.java
+ io.flutter.plugins.GeneratedPluginRegistrant
+net/codexdev/flutter_alarm_clock/BuildConfig.java
+ net.codexdev.flutter_alarm_clock.BuildConfig
