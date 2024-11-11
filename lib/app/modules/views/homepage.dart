@@ -21,7 +21,9 @@ class _HomePageState extends State<HomePage> {
         children: <Widget>[
           Column(
             mainAxisAlignment: MainAxisAlignment.center,
-            children: menuItems.map((currentMenuInfo) => buildMenuButton(currentMenuInfo)).toList(),
+            children: menuItems
+                .map((currentMenuInfo) => buildMenuButton(currentMenuInfo))
+                .toList(),
           ),
           VerticalDivider(
             color: CustomColors.dividerColor,
@@ -40,7 +42,7 @@ class _HomePageState extends State<HomePage> {
                       text: TextSpan(
                         style: TextStyle(fontSize: 20),
                         children: <TextSpan>[
-                          TextSpan(text: 'Upcoming Tutorial\n'),
+                          TextSpan(text: 'Upcoming...\n'),
                           TextSpan(
                             text: value.title,
                             style: TextStyle(fontSize: 48),
@@ -61,9 +63,12 @@ class _HomePageState extends State<HomePage> {
     return Consumer<MenuInfo>(
       builder: (BuildContext context, MenuInfo value, Widget? child) {
         return MaterialButton(
-          shape: RoundedRectangleBorder(borderRadius: BorderRadius.only(topRight: Radius.circular(32))),
+          shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.only(topRight: Radius.circular(32))),
           padding: const EdgeInsets.symmetric(vertical: 16.0, horizontal: 0),
-          color: currentMenuInfo.menuType == value.menuType ? CustomColors.menuBackgroundColor : CustomColors.pageBackgroundColor,
+          color: currentMenuInfo.menuType == value.menuType
+              ? CustomColors.menuBackgroundColor
+              : CustomColors.pageBackgroundColor,
           onPressed: () {
             var menuInfo = Provider.of<MenuInfo>(context, listen: false);
             menuInfo.updateMenu(currentMenuInfo);
@@ -77,7 +82,10 @@ class _HomePageState extends State<HomePage> {
               SizedBox(height: 16),
               Text(
                 currentMenuInfo.title ?? '',
-                style: TextStyle(fontFamily: 'avenir', color: CustomColors.primaryTextColor, fontSize: 14),
+                style: TextStyle(
+                    fontFamily: 'avenir',
+                    color: CustomColors.primaryTextColor,
+                    fontSize: 14),
               ),
             ],
           ),

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\risfa\\Desktop\\WorkSpace\\flutter_alarm_clock\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-mk\\values-mk.xml",
+            "outputFile": "F:\\Workspace\\Personal\\flutter_alarm_clock\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-mk\\values-mk.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\risfa\\.gradle\\caches\\transforms-2\\files-2.1\\122df2e57d294d1a53db26bbc3b813c1\\core-1.6.0\\res\\values-mk\\values-mk.xml",
+                    "source": "C:\\Users\\risfa\\.gradle\\caches\\transforms-3\\007a52d11ce053a525e16d0d2905a27c\\transformed\\core-1.6.0\\res\\values-mk\\values-mk.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\risfa\\Desktop\\WorkSpace\\flutter_alarm_clock\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v21\\values-v21.xml",
+            "outputFile": "F:\\Workspace\\Personal\\flutter_alarm_clock\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v21\\values-v21.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\risfa\\.gradle\\caches\\transforms-2\\files-2.1\\122df2e57d294d1a53db26bbc3b813c1\\core-1.6.0\\res\\values-v21\\values-v21.xml",
+                    "source": "C:\\Users\\risfa\\.gradle\\caches\\transforms-3\\007a52d11ce053a525e16d0d2905a27c\\transformed\\core-1.6.0\\res\\values-v21\\values-v21.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,13",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\risfa\\.gradle\\caches\\transforms-2\\files-2.1\\6b1e46759313a994dcb76df1a90e19cb\\media-1.1.0\\res\\values-v21\\values-v21.xml",
+                    "source": "C:\\Users\\risfa\\.gradle\\caches\\transforms-3\\620cff8d7dbab042cc92a787970f3914\\transformed\\media-1.1.0\\res\\values-v21\\values-v21.xml",
                     "from": {
                         "startLines": "2,5,8,11",
                         "startColumns": "4,4,4,4",
